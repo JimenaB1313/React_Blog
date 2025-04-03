@@ -1,0 +1,21 @@
+.post {
+    background-color: #f0f4f8;
+    border: 2px solid #4a90e2;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  .titulo {
+    font-size: 1.5rem;
+    color: #4a90e2;
+  }
+  .botonEliminar {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }

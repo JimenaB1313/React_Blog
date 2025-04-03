@@ -1,0 +1,21 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .input, .textarea {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #4a90e2;
+    border-radius: 5px;
+  }
+  
+  .boton {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }

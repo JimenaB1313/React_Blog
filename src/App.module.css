@@ -1,0 +1,24 @@
+.contenedor {
+  width: 800px;
+  height: 50vh;/* Limita la altura máxima al 50% de la pantalla */
+  overflow-y: auto; /* Permite el desplazamiento vertical */
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border: 2px solid #4a90e2;
+  border-radius: 12px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.listaPosts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.mensajeVacio {
+  text-align: center;
+  font-style: italic;
+  color: #7f8c8d;
+  margin-top: 20px;
+}

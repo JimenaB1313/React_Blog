@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: left; /* Center horizontally */
+    align-items: flex-start; /* Align elements at the top */
+    gap: 50px;
+    position: fixed;
+     top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000; /* Ensure it's above other elements */
+    padding: 15px;
+    border-bottom: 2px solid #ddd;
+}
+
+.titulo {
+    text-align: left;
+    font-size: 2.5rem; /* Aumentar el tamaño del título */
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
